@@ -1,0 +1,10 @@
+<h2>获取Person列表内容如下</h2>
+<table *ngIf="persons" border=1>
+	<tr *ngFor="let person of persons;">
+		<td>{{person.id}}</td>
+		<td>{{person.name}}</td>
+		<td>{{person.gender}}</td>
+		<td>{{person.description}}</td>
+	</tr>
+	
+</table>
